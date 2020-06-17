@@ -20,7 +20,7 @@ if ($_GET["Command"] == "save") {
         $time = date('h:i:s', $time_now);
 //    $today = date('Y-m-d');
 //    setcookie("user", "", time(),"/");
-
+// test
         $today = date('Y-m-d');
         $domain = $_SERVER['HTTP_HOST'];
         setcookie('user', "", 1, "/", $domain);
