@@ -56,6 +56,7 @@ if ($_GET["Command"] == "pass_data") {
                                     <th width=\"500PX;\">Service Provide</th> 
                                     <th width=\"500PX;\">Status</th>
                                 </tr>";
+
      if($_SESSION['User_Type']=="SERVICE PROVIDER"){
         if($_GET["selectStatus"]!="All"){
              $sql = "SELECT * from orders where  status='".$_GET["selectStatus"]."' and spid='".$_SESSION['id']."'";
@@ -169,7 +170,7 @@ if ($_GET["Command"] == "pass_data") {
         }
 
 
-    //     //////////////////////////
+    //     //////////////////////////////
     }
   }
     $ResponseXML .= "   </table>]]></sales_table>";
