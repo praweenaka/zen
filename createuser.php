@@ -161,6 +161,7 @@ $cookie_name = "user";
                    <div class="form-group">&nbsp;</div> 
                    <div class="form-group">&nbsp;</div>
                    <div class="form-group">&nbsp;</div>
+                   <div class="form-group">&nbsp;</div>
                 </DIV>  
    
             </div>
