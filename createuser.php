@@ -170,9 +170,7 @@ $cookie_name = "user";
         </form>
     </body>    
 </html>     
-
  
-
 
 <!-- <script src="js/jquery-2.1.0.js"></script> -->
 <!-- <script src="js/bootstrap.min.js"></script> -->
