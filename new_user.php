@@ -2,7 +2,7 @@
 <section class="content">
     <div class="box box-primary">
         <div class="box-header with-border">
-            <h3 class="box-title">New User</h3>
+            <h3 class="box-title">New User Create</h3>
         </div>
         <form role="form" class="form-horizontal">
             <div class="box-body">
