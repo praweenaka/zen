@@ -2,16 +2,16 @@
 include './CheckCookie.php';
 require_once ('connection_sql.php');
 $cookie_name = "user";
-// if (isset($_COOKIE[$cookie_name])) {
+if (isset($_COOKIE[$cookie_name])) {
 //     $mo = chk_cookie($_COOKIE[$cookie_name]);
 //     if ($mo != "ok") {
 //         header('Location: ' . "index.php");
 //         exit();
-//     }
+    }
 // } else {
 //     header('Location: ' . "index.php");
 //     exit();
-// }
+}
 
 if($_SESSION['CURRENT_USER'] ==""){
      header('Location: ' . "index1.php");
