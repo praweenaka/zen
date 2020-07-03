@@ -22,7 +22,7 @@ function get_title($url) {
         <!-- Font Awesome -->
         <link rel="stylesheet" href="dist/css/font-awesome-4.7.0/css/font-awesome.min.css">  
 
-        <!-- Theme style -->
+        <!-- Theme style ssssssssssss-->
         <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
         <!-- AdminLTE Skins. Choose a skin from the css/skins
              folder instead of downloading all of them to reduce the load. -->
@@ -51,6 +51,9 @@ function get_title($url) {
             #menuimghigh{
                 height:50px;
             }
+            /*.{
+            	
+            }*/
         </style>
     </head>
 
