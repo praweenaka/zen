@@ -11,7 +11,7 @@ date_default_timezone_set('Asia/Colombo');
  
 
 if ($_GET["Command"] == "save") {
-
+// save
 
     try {
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -50,7 +50,6 @@ if ($_GET["Command"] == "pass_data") {
     $cuscode = $_GET["custno"];
 
     $sql = "SELECT * from skill where  status='Active' and cancel='0' order by id desc";
-
     $i = 1;
     foreach ($conn->query($sql) as $row) {
         $ResponseXML .= "<tr>
